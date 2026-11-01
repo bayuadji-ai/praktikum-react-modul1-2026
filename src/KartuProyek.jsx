@@ -12,7 +12,6 @@ function KartuProyek({ judul, deskripsi, teknologi, repoUrl }) {
         ))}
       </ul>
 
-      {/* Link kosong (href="") cuma me-reload halaman, jadi dibedakan */}
       {repoUrl ? (
         <a
           className="tombol-repo"

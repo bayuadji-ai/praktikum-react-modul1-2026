@@ -20,7 +20,6 @@ function App() {
     { id: 4, namaSkill: "Laravel", level: "Pemula" },
   ];
 
-  // Total SKS dihitung dari data, jadi ikut berubah kalau data diubah
   const totalSks = daftarPraktikum.reduce((jumlah, matkul) => jumlah + matkul.sks, 0);
 
   const notifikasiSapaan = () => {
@@ -43,7 +42,6 @@ function App() {
           </div>
           <KartuProfil nama="Bayu Adji Prakoso" npm="243040040" kelas="D" status="Aktif" />
 
-          {/* Tugas 1: daftar skill di bawah profil */}
           <div className="keahlian">
             <h3 className="keahlian-judul">Keahlian</h3>
             <div className="daftar-skill">
@@ -55,7 +53,6 @@ function App() {
         </section>
       </header>
 
-      {/* Tugas 2: App.jsx cuma iterasi + panggil <ItemMatkul /> */}
       <section className="seksi">
         <div className="seksi-kepala">
           <h2 className="seksi-judul">Daftar Rencana Praktikum Semester</h2>
@@ -70,7 +67,6 @@ function App() {
         </ul>
       </section>
 
-      {/* Tugas 3 */}
       <ShowcasePortofolio />
 
       <div className="aksi">

@@ -1,6 +1,5 @@
 import React from "react";
 
-// level -> className warna + jumlah titik indikator (1 titik = pemula, 3 titik = mahir)
 const LEVEL = {
   Pemula: { kelas: "badge-pemula", titik: 1 },
   Menengah: { kelas: "badge-menengah", titik: 2 },

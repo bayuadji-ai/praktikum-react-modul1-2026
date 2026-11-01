@@ -1,5 +1,4 @@
-/* src/index.css - token warna, font, dan reset global.
-   Gaya per-komponen ada di App.css. */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Instrument+Sans:wght@400..700&display=swap");
 
 :root {
   --kertas: #f3f5fa;
@@ -11,8 +10,8 @@
   --mint: #3ddc97;
   --koral: #ff7a66;
 
-  --font-judul: "Bricolage Grotesque Variable", system-ui, sans-serif;
-  --font-isi: "Instrument Sans Variable", system-ui, sans-serif;
+  --font-judul: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-isi: "Instrument Sans", system-ui, sans-serif;
 
   color-scheme: light;
 }
@@ -29,22 +28,11 @@ body {
   font-size: 16px;
   line-height: 1.55;
   color: var(--tinta);
-  background-color: var(--kertas);
-  /* kertas grafik tipis: nuansa buku catatan praktikum */
-  background-image:
-    linear-gradient(rgba(14, 19, 48, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(14, 19, 48, 0.045) 1px, transparent 1px);
-  background-size: 28px 28px;
+  background-color: var(--putih);
   -webkit-font-smoothing: antialiased;
 }
 
-h1,
-h2,
-h3,
-p,
-dl,
-dd,
-ul {
+h1,h2,h3,p,dl,dd,ul {
   margin: 0;
 }
 

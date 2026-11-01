@@ -1,9 +1,6 @@
-// src/KartuProfil.jsx
 import React from "react";
 
-// Komponen Functional menerima properti (props) melalui parameter fungsi
 function KartuProfil({ nama, npm, kelas, status, fotoUrl }) {
-  // Kalau fotoUrl tidak dikirim, pakai avatar inisial yang dibuat dari nama
   const foto =
     fotoUrl ||
     `https://api.dicebear.com/9.x/initials/svg?seed=${encodeURIComponent(nama)}`;
